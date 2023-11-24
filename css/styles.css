@@ -91,7 +91,7 @@ html,body {
   right: 0;
   top: 0;
   bottom: 0;
-  background: -webkit-linear-gradient( 90deg, rgba(108,76,206, .9) 0%, rgba(127,86,253, .9) 100%);
+  background: -webkit-linear-gradient( 90deg, rgba(255, 21, 0, 0.286) 0%, rgba(218, 86, 86, 0.598) 100%);
   z-index: -1;
 }
 
@@ -116,7 +116,7 @@ html,body {
 .header__content__sub-title li{
   display: inline-block;
   font-size: 15px;
-  color: #e6e6e6;
+  color: #ffffff;
 }
 
 .header__content__sub-title .padding{
@@ -130,7 +130,7 @@ html,body {
   border-radius: 30px;
   display: inline-block;
   font-size: 15px;
-  color: #7f56fd;
+  color: rgb(165, 40, 40);
   font-family: Roboto-Light;
   font-weight: bold;
   margin-top: 30px;
@@ -166,7 +166,7 @@ html,body {
   font-family: Roboto-Light;
   font-weight: bold;
   background: url("../assets/images/logo.png") no-repeat;
-  padding-left: 45px;
+  padding-left: 70px;
   background-position: left center;
 }
 
@@ -298,9 +298,15 @@ html,body {
 }
 
 .button--colorful{
- background-color: #7F56FD;
+ background-color: rgb(165, 40, 40);
  font-family: Roboto-Light;
  color: #fff;
+}
+
+.button--colorful:hover{
+  background-color: rgb(165, 40, 40);
+  font-family: Roboto-Light;
+  color: #fff;
 }
 
 .button--default{
@@ -310,9 +316,9 @@ html,body {
 }
 
 .button--default:hover{
-  background-color: #7F56FD;
+  background-color: rgb(165, 40, 40);
   color: #fff;
-  border: 1px solid #7F56FD;
+  border: 1px solid rgb(165, 40, 40);
 }
 
 .button--margin{
@@ -339,7 +345,7 @@ html,body {
   right: 0;
   top: 0;
   bottom: 0;
-  background-color: rgba(120, 88, 221, .9);
+  background-color: rgba(221, 104, 88, 0.9);
   z-index: -1;
 }
 
